@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_socialnet_social_newtworks",
+  "info": {
+    "displayName": "Social Newtworks",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_socialnet_social_networks_infos",
+  "info": {
+    "displayName": "Social Networks Info"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "string"
+    }
+  }
+}

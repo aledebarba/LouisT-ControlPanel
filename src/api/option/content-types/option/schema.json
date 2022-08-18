@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "options",
+  "info": {
+    "singularName": "option",
+    "pluralName": "options",
+    "displayName": "Options",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "copyrights": {
+      "type": "text"
+    },
+    "privacy_policy": {
+      "type": "richtext"
+    },
+    "terms_of_use": {
+      "type": "richtext"
+    },
+    "Socialize": {
+      "displayName": "Social Newtworks",
+      "type": "component",
+      "repeatable": true,
+      "component": "socialnet.social-newtworks"
+    },
+    "links": {
+      "displayName": "Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}
