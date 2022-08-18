@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_words_words_and_expressions",
+  "info": {
+    "displayName": "Words and Expressions"
+  },
+  "options": {},
+  "attributes": {
+    "word": {
+      "type": "string"
+    }
+  }
+}

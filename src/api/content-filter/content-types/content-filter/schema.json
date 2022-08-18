@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "content_filters",
+  "info": {
+    "singularName": "content-filter",
+    "pluralName": "content-filters",
+    "displayName": "Content Filter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banned_profiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.twitter-profile"
+    },
+    "important_profiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.twitter-profile"
+    },
+    "banned_hashtags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hashtags.hashtags"
+    },
+    "banned_words": {
+      "type": "component",
+      "repeatable": true,
+      "component": "words.words-and-expressions"
+    }
+  }
+}

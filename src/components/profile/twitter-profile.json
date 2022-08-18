@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_profile_twitter_profiles",
+  "info": {
+    "displayName": "Twitter Profile",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "unique": false
+    }
+  }
+}
